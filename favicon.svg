@@ -1,0 +1,31 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Favicon for Software 3.0 -->
+  <defs>
+    <linearGradient id="faviconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e87500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cc6600;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="32" height="32" fill="#0a0a0a" rx="6"/>
+  
+  <!-- "3.0" simplified for favicon -->
+  <g fill="url(#faviconGrad)" stroke="none">
+    <!-- "3" -->
+    <path d="M6 8 L6 9 L11 9 L11 14 L8 14 L8 15 L11 15 L11 20 L6 20 L6 21 L12 21 L12 15 L9 15 L9 14 L12 14 L12 8 Z"/>
+    
+    <!-- "." -->
+    <circle cx="14" cy="20" r="1"/>
+    
+    <!-- "0" -->
+    <circle cx="20" cy="15" r="4" fill="none" stroke="url(#faviconGrad)" stroke-width="1.5"/>
+    <circle cx="20" cy="15" r="2" fill="url(#faviconGrad)" opacity="0.4"/>
+    
+    <!-- AI indicator -->
+    <circle cx="26" cy="12" r="0.8" fill="url(#faviconGrad)"/>
+    <circle cx="26" cy="18" r="0.8" fill="url(#faviconGrad)"/>
+    <line x1="24" y1="13" x2="25" y2="14" stroke="url(#faviconGrad)" stroke-width="0.8" opacity="0.8"/>
+    <line x1="24" y1="17" x2="25" y2="16" stroke="url(#faviconGrad)" stroke-width="0.8" opacity="0.8"/>
+  </g>
+</svg>

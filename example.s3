@@ -1,0 +1,4 @@
+{
+  "instructions": "# Software 3.0 Demo\n\nCreate a simple function that demonstrates the Software 3.0 paradigm.\n\nThis function should:\n1. Accept a user's name as input\n2. Return a personalized welcome message\n3. Highlight that this is the future of programming\n\n**Key Concept:** In Software 3.0, this instruction block IS the program specification. The code below is AI-generated implementation that can be toggled on/off.",
+  "code": "// Software 3.0 Implementation\nfunction welcomeToFuture(name) {\n  const message = `🚀 Welcome ${name} to Software 3.0!`;\n  const subtitle = 'Where English becomes the programming language.';\n  \n  console.log(message);\n  console.log(subtitle);\n  \n  return {\n    user: name,\n    paradigm: 'Software 3.0',\n    format: '.s3',\n    concept: 'Natural language programming'\n  };\n}\n\n// Usage example\nconst result = welcomeToFuture('Developer');\nconsole.log('Result:', result);"
+}
